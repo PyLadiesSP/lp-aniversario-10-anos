@@ -1,0 +1,111 @@
+{
+  "header": {
+    "fixedMenuLinks": [
+      { "text": "O Evento", "href": "#o-evento" },
+      { "text": "Agenda", "href": "#agenda-section" },
+      { "text": "História da Comunidade", "href": "#community-history-section" },
+      { "text": "Código de Conduta", "href": "#code-of-conduct-section" }
+    ],
+    "conductText": "",
+    "registerButtonText": "Inscrever"
+  },
+  "hero": {
+    "title": "Aniversário 10 anos PyLadies São Paulo",
+    "date": "6 DE SETEMBRO 2025",
+    "registerButtonText": "Inscrever"
+  },
+  "aboutEvent": {
+    "title": "O EVENTO",
+    "paragraphs": [
+      "A Python Brasil é a maior conferência de Python da América Latina, sendo um evento voltado a educação, treinamento e troca de experiências.",
+      "Temos como máxima que pessoas são maiores que tecnologia, e queremos que todos que visitem o evento vivam essa experiência. Sob um código de conduta, o evento preza por criar um ambiente seguro e convidativo a todas as pessoas.",
+      "Como um evento itinerante, todo ano sediado em uma cidade e região diferente do país, sempre organizados por pessoas de comunidades locais, a Python Brasil tem alguns objetivos em cada visita que faz, como principais:"
+    ],
+    "objectives": [
+      "Difundir a Linguagem Python",
+      "Promover a troca de experiências e conhecimentos",
+      "Incentivar o crescimento da comunidade nacional",
+      "Incentivar o crescimento da comunidade regional",
+      "Impactar econômica e socialmente a região."
+    ]
+  },
+  "agenda": {
+    "title": "AGENDA",
+    "items": [
+      {
+        "time": "9h - 9h38",
+        "description": "Café e Boas vindas",
+        "speaker": null
+      },
+      {
+        "time": "9h30 - 16h",
+        "description": "Quem são as PyLadies SP?",
+        "speaker": null
+      },
+      {
+        "time": "10h - 11h",
+        "description": "Keynote 1",
+        "speaker": {
+          "name": "Luciano Ramalho",
+          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996"
+        }
+      },
+      {
+        "time": "12h28 - 14h",
+        "description": "Almoço",
+        "speaker": null
+      },
+      {
+        "time": "15h26 - 15h50",
+        "description": "Café",
+        "speaker": null
+      },
+      {
+        "time": "16h48 - 17h40",
+        "description": "Keynote",
+        "speaker": {
+          "name": "Luciano Ramalho",
+          "cargo": "Desenvolvedor desde os 12 anos, com 55 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996"
+        }
+      }
+    ]
+  },
+  "communityHistory": {
+    "title": "HISTÓRIA DA COMUNIDADE",
+    "paragraphs": [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    ]
+  },
+  "codeOfConduct": {
+    "title": "CÓDIGO DE CONDUTA",
+    "subtitle": "Código de Conduta PyLadies São Paulo",
+    "introParagraphs": [
+      "A Pyladies São Paulo dedica-se a construir uma comunidade respeitosa e livre de assédio para todos. Não toleramos qualquer tipo de assédio ou intimidação de participantes da comunidade. Isso não se estende apenas às integrantes das comunidades Locais de PyLadies, mas a todos que participem dos eventos que as PyLadies realizam e/ou de suas redes sociais."
+    ],
+    "whatIsHarassmentTitle": "Por assédio entendemos:",
+    "harassmentDefinitions": [
+      "comentários verbais ofensivos, por meios virtuais ou não, relacionados à características ou escolhas pessoais;",
+      "imagens ou comentários sexuais em espaços públicos, virtuais ou não;",
+      "intimidação deliberada;",
+      "intimidação por perseguição, perseguição, fotos, gravações e prints de telas sem a devida autorização;",
+      "interrupção constante da fala de palestrantes, seja em bate-papos/reuniões online ou em outros eventos;",
+      "qualquer tipo de contato físico inadequado ou indesejado. A pessoa participante, quando solicitada a interromper qualquer comportamento identificado como assédio ou intimidação, deve atender imediatamente."
+    ],
+    "consequencesIntro": "Se uma participante se envolver em qualquer um dos comportamentos listados acima, as representantes da comunidade podem tomar medidas que considerem apropriadas tais como:",
+    "consequences": [
+      "Advertência;",
+      "Expulsão da participante de qualquer evento PyLadies São Paulo;",
+      "Banimento da participante das Listas de discussão, grupos de redes sociais, fóruns de discussão e outros canais de comunicação eletrônica associados às PyLadies São Paulo;",
+      "Poderá ser proibida de participar de qualquer evento realizado pela comunidade PyLadies São Paulo."
+    ],
+    "reportingInstructions": "Caso você se sinta assediada e/ou desrespeitada, observe se outra participante também está sendo e/ou caso você identifique alguma postura que não condiga com este código de conduta, aja para interceder ou peça ajuda a qualquer membro da comunidade PyLadies São Paulo, tais como: administradoras de grupos de Telegram, de sites ou organizadoras representantes da comunidade, em qualquer evento que as PyLadies São Paulo organizarem.",
+    "adaptationNote": "Este código de conduta foi traduzido e adaptado do código de conduta do PyLadies Internacional."
+  },
+  "footer": {
+    "copyright": "2025 PyLadies São Paulo. Todos os Direitos Reservados.",
+    "legalNotice": "Aviso Legal: PyLadies é uma marca registrada da Python Software Foundation"
+  }
+}

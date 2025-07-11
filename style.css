@@ -1,0 +1,386 @@
+/* General Resets and Base Styles */
+*{
+    margin: 0 auto;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #311B42;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* For smooth scrolling to sections */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.content-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.content-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #7b1fa2; /* PyLadies purple-ish */
+    margin-bottom: 2.5rem;
+}
+
+/* Header Styles */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.fixed-header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-header nav ul li {
+    margin-right: 25px;
+}
+
+.fixed-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.05em;
+    transition: color 0.3s ease;
+}
+
+.fixed-header nav ul li a:hover {
+    color: #7b1fa2; /* PyLadies purple-ish */
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.header-actions #conduct-text {
+    margin-right: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.header-actions .register-button {
+    background-color: #28a745; /* Green for registration */
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.header-actions .register-button:hover {
+    background-color: #218838;
+}
+
+/* Hero Section */
+.hero-section {
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px 80px; /* Adjust padding for fixed header */
+    margin-top: 60px; /* Space for the fixed header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Minimum height for visual impact */
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.hero-content .event-date {
+    font-size: 1.6em;
+    color: #7b1fa2;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.hero-content .register-button {
+    background-color: #7b1fa2; /* PyLadies purple-ish */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+
+.hero-content .register-button:hover {
+    background-color: #6a1b9a; /* Slightly darker purple */
+}
+
+/* About Event Section */
+.about-event-section p {
+    font-size: 1.05em;
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.about-event-section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.about-event-section ul li {
+    font-size: 1.05em;
+    color: #555;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.about-event-section ul li::before {
+    content: '★'; /* Star icon for objectives */
+    color: #8e24aa;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    top: -2px;
+}
+
+/* Agenda Section (from previous example, slightly refined) */
+.agenda-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.agenda-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 90%;
+}
+
+.agenda-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.agenda-time {
+    font-weight: bold;
+    color: #8e24aa; /* A slightly darker purple */
+    font-size: 1.1em;
+    margin-bottom: 0.5rem;
+}
+
+.agenda-description {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.speaker-info {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px dashed #e0e0e0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.speaker-info strong {
+    color: #333;
+}
+
+/* Community History Section */
+.community-history-section p {
+    font-size: 1.05em;
+    color: #555;
+    text-align: justify;
+}
+
+/* Code of Conduct Section */
+.code-of-conduct-section {
+    background-color: #e8eaf6; /* Light blue-ish for emphasis */
+    border-left: 5px solid #7b1fa2;
+    padding: 2.5rem;
+}
+
+.code-of-conduct-section h3 {
+    font-size: 1.8em;
+    color: #444;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.code-of-conduct-section h4 {
+    font-size: 1.4em;
+    color: #555;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.code-of-conduct-section p {
+    font-size: 1em;
+    line-height: 1.7;
+    color: #666;
+    text-align: justify;
+}
+
+.code-of-conduct-section ul {
+    list-style: disc; /* Use discs for lists in this section */
+    margin-left: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.code-of-conduct-section ul li {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    font-size: 1em;
+}
+
+.site-footer .legal-notice {
+    font-size: 0.8em;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .fixed-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .fixed-header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .fixed-header nav ul li {
+        margin: 5px 10px;
+    }
+
+    .header-actions {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .header-actions #conduct-text {
+        margin: 0 0 10px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content .event-date {
+        font-size: 1.2em;
+    }
+
+    .content-section {
+        padding: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .content-section h2 {
+        font-size: 2em;
+    }
+
+    .agenda-item {
+        flex-direction: column;
+    }
+
+    .agenda-time {
+        text-align: left;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .agenda-item {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .agenda-time {
+        min-width: 120px; /* Give time a fixed width for alignment */
+        flex-shrink: 0;
+        margin-right: 1rem;
+        text-align: right;
+    }
+
+    .agenda-content {
+        flex-grow: 1;
+        text-align: left;
+    }
+    .agenda-description, .speaker-info {
+        margin-bottom: 0; /* Remove bottom margin for better alignment in row layout */
+    }
+}
