@@ -298,7 +298,7 @@ button {
     text-align: center;
     padding: 1.5rem 0;
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .site-footer .legal-notice {
@@ -359,6 +359,9 @@ button {
         text-align: left;
         margin-right: 0;
         margin-bottom: 0.5rem;
+    }
+    .site-footer {
+        font-size: 1rem;
     }
 }
 
