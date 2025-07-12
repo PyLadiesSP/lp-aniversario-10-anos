@@ -4,9 +4,10 @@
       { "text": "O Evento", "href": "#o-evento" },
       { "text": "Agenda", "href": "#agenda-section" },
       { "text": "História da Comunidade", "href": "#community-history-section" },
-      { "text": "Código de Conduta", "href": "#code-of-conduct-section" }
+      { "text": "Código de Conduta", "href": "#code-of-conduct-section" },
+      { "text": "Dúvidas", "href": "mailto:saopaulo@pyladies.com" }
     ],
-    "conductText": "",
+    "conductText": "Falta: 1D 13H 03S",
     "registerButtonText": "Inscrever"
   },
   "hero": {
