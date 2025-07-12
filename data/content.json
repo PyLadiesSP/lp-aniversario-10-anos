@@ -107,6 +107,8 @@
   },
   "footer": {
     "copyright": "2025 PyLadies São Paulo. Todos os Direitos Reservados.",
-    "legalNotice": "Aviso Legal: PyLadies é uma marca registrada da Python Software Foundation"
+    "legalNotice": "Aviso Legal: PyLadies é uma marca registrada da Python Software Foundation",
+    "createDescription": "Desenvolvida por",
+    "createMember":"Dáviny Letícia Vidal"
   }
 }
