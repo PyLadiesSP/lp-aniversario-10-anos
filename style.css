@@ -155,15 +155,22 @@ section {
   max-width: 700px;
 }
 
+
 .hero-content h1 {
   font-size: 3.5em;
-  color: #000;
+  color: #ffffff;
   margin-bottom: 15px;
-  line-height: 1.1;
-  background-color: #c1b8b8;
+  line-height: 1.1;  
   border-radius: 10px;
   padding: 1rem;
-  opacity: 0.7;
+
+}
+
+
+.hero-content img {
+  width: 690px;
+  height: 470px;
+  
 }
 
 .hero-content .event-date {
