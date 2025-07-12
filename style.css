@@ -190,7 +190,7 @@ section {
 
 /* About Event Section */
 .about-event-section p {
-  font-size: 1.05em;
+  font-size: 1.4em;
   color: #555;
   margin-bottom: 1.5rem;
   text-align: justify;
@@ -204,11 +204,11 @@ section {
 }
 
 .about-event-section ul li {
-  font-size: 1.05em;
+  font-size: 1.3em;
   color: #555;
   margin-bottom: 10px;
   position: relative;
-  padding-left: 25px;
+  padding-left: 35px;
 }
 
 .about-event-section ul li::before {
@@ -251,7 +251,7 @@ section {
 }
 
 .agenda-description {
-  font-size: 1em;
+   font-size: 1.4em;
   color: #555;
   margin-bottom: 0.5rem;
 }
@@ -260,7 +260,7 @@ section {
   margin-top: 0.8rem;
   padding-top: 0.8rem;
   border-top: 1px dashed #e0e0e0;
-  font-size: 0.9em;
+   font-size: 1.4em;
   color: #666;
 }
 
@@ -270,7 +270,7 @@ section {
 
 /* Community History Section */
 .community-history-section p {
-  font-size: 1.05em;
+  font-size: 1.4em;
   color: #555;
   text-align: justify;
 }
@@ -297,7 +297,7 @@ section {
 }
 
 .code-of-conduct-section p {
-  font-size: 1em;
+  font-size: 1.4em;
   line-height: 1.7;
   color: #666;
   text-align: justify;
@@ -310,7 +310,7 @@ section {
 }
 
 .code-of-conduct-section ul li {
-  font-size: 0.95em;
+    font-size: 1.3em;
   line-height: 1.6;
   color: #666;
   margin-bottom: 8px;
