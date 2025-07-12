@@ -170,8 +170,6 @@ section {
 
 .hero-content img {
   width: 100%;
-
-  
 }
 
 .hero-content .event-date {
@@ -272,6 +270,19 @@ section {
   color: #666;
 }
 
+.speaker-info img{
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+.speaker-info .title {
+  color: #333;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
 .speaker-info strong {
   color: #333;
 }

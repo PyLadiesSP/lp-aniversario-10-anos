@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (item.speaker) {
         const speakerDiv = document.createElement("div");
         speakerDiv.classList.add("speaker-info");
-        speakerDiv.innerHTML = `<strong>${item.speaker.name}</strong><br>${item.speaker.cargo}`;
+        speakerDiv.innerHTML = `<img src="${item.speaker.avatar}" alt=foto do palestrante"/><br><div class="title">${item.speaker.name}</div><br>${item.speaker.cargo}`;
         contentDiv.appendChild(speakerDiv);
       }
 
