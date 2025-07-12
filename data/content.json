@@ -3,7 +3,10 @@
     "fixedMenuLinks": [
       { "text": "O Evento", "href": "#o-evento" },
       { "text": "Agenda", "href": "#agenda-section" },
-      { "text": "História da Comunidade", "href": "#community-history-section" },
+      {
+        "text": "História da Comunidade",
+        "href": "#community-history-section"
+      },
       { "text": "Código de Conduta", "href": "#code-of-conduct-section" },
       { "text": "Fale Conosco", "href": "mailto:saopaulo@pyladies.com" }
     ],
@@ -48,7 +51,8 @@
         "description": "Keynote 1",
         "speaker": {
           "name": "Luciano Ramalho",
-          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996"
+          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996",
+          "avatar": ""
         }
       },
       {
@@ -66,7 +70,8 @@
         "description": "Keynote",
         "speaker": {
           "name": "Luciano Ramalho",
-          "cargo": "Desenvolvedor desde os 12 anos, com 55 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996"
+          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996",
+          "avatar": ""
         }
       }
     ]
@@ -109,6 +114,6 @@
     "copyright": "2025 PyLadies São Paulo. Todos os Direitos Reservados.",
     "legalNotice": "Aviso Legal: PyLadies é uma marca registrada da Python Software Foundation",
     "createDescription": "Desenvolvida por",
-    "createMember":"Dáviny Letícia Vidal"
+    "createMember": "Dáviny Letícia Vidal"
   }
 }
