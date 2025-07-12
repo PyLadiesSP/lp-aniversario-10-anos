@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Select DOM elements where content will be injected
     const mainNavList = document.getElementById('main-nav-list');
-    const conductText = document.getElementById('conduct-text');
     const headerRegisterBtn = document.getElementById('header-register-btn');
 
     const heroTitle = document.getElementById('hero-title');
@@ -30,6 +29,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const footerCopyrightP = document.getElementById('footer-copyright');
     const footerLegalNoticeP = document.getElementById('footer-legal-notice');
+
+
+      // Select countdown timer elements
+    const countdownHeaderElement = document.getElementById('countdown-header'); // NEW
+    const countdownTimerElement = document.getElementById('countdown-timer'); // Existing main one
+
+    // Define the event date (September 6, 2025)
+    // The date is "6 DE SETEMBRO 2025"
+    // Assuming 9 AM, as typical for event starts in Mogi das Cruzes, São Paulo, Brazil (UTC-3).
+    const eventDate = new Date('2025-09-06T09:00:00-03:00');
+
+
+
+    // Function to calculate and display the countdown for a given element
+    function updateCountdown(element) {
+        const now = new Date();
+        const timeLeft = eventDate - now; // Time difference in milliseconds
+
+        if (timeLeft <= 0) {
+            if (element) {
+                element.textContent = 'O evento começou!';
+            }
+            // Clear both intervals if they exist
+            if (countdownHeaderInterval) clearInterval(countdownHeaderInterval);
+            if (countdownMainInterval) clearInterval(countdownMainInterval);
+            return;
+        }
+
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        if (element) {
+            element.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+    }
+
+    // Initialize and store intervals for each countdown
+    let countdownHeaderInterval;
+    if (countdownHeaderElement) {
+        updateCountdown(countdownHeaderElement); // Initial call
+        countdownHeaderInterval = setInterval(() => updateCountdown(countdownHeaderElement), 1000);
+    }
+
+    let countdownMainInterval;
+    if (countdownTimerElement) {
+        updateCountdown(countdownTimerElement); // Initial call
+        countdownMainInterval = setInterval(() => updateCountdown(countdownTimerElement), 1000);
+    }
+
+    
 
     // Function to fetch all content data from JSON
     async function fetchContent() {
@@ -67,7 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
             mainNavList.appendChild(li);
         });
 
-        conductText.textContent = data.conductText;
         headerRegisterBtn.textContent = data.registerButtonText;
         // Add event listener for register button if needed (e.g., scroll to form)
         // headerRegisterBtn.addEventListener('click', () => { /* ... */ });
@@ -189,6 +239,48 @@ document.addEventListener('DOMContentLoaded', () => {
         footerLegalNoticeP.textContent = data.legalNotice;
     }
 
+    const shareButtons = document.querySelectorAll('.share-btn');
+
+    const eventUrl = window.location.href; // URL atual da página
+    const eventTitle = "PyLadies São Paulo - Aniversário de 10 anos!";
+    const eventDescription = "Participe do Aniversário das PyLadies São Paulo que completa 10 anos!";
+    const eventHashtags = "PyLadiesSP,PythonBrasil,ComunidadePython, ComunidadeFeminina";
+
+    shareButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const platform = button.dataset.platform;
+            let shareUrl = '';
+
+            switch (platform) {
+                case 'twitter':
+                    // Limitar a mensagem para caber no Twitter (280 caracteres - URL e hashtags)
+                    const twitterText = encodeURIComponent(`${eventTitle} ${eventDescription}. Saiba mais e inscreva-se: ${eventUrl} #${eventHashtags.replace(/,/g, ' #')}`);
+                    shareUrl = `https://twitter.com/intent/tweet?text=${twitterText}`;
+                    break;
+                case 'facebook':
+                    // Facebook prefere que você apenas forneça a URL, ele puxa o og:tags
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(eventUrl)}`;
+                    break;
+                case 'linkedin':
+                    shareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(eventUrl)}&title=${encodeURIComponent(eventTitle)}&summary=${encodeURIComponent(eventDescription)}&source=${encodeURIComponent(window.location.origin)}`;
+                    break;
+                case 'whatsapp':
+                    // WhatsApp usa um esquema de URL diferente para desktop/mobile
+                    const whatsappText = encodeURIComponent(`${eventTitle}\n${eventDescription}\n\nConfira: ${eventUrl}`);
+                    if (/Mobi|Android/i.test(navigator.userAgent)) { // Check for mobile devices
+                        shareUrl = `whatsapp://send?text=${whatsappText}`;
+                    } else {
+                        shareUrl = `https://web.whatsapp.com/send?text=${whatsappText}`;
+                    }
+                    break;
+                default:
+                    return; // Não faz nada se a plataforma não for reconhecida
+            }
+
+            // Abre a janela de compartilhamento em um pop-up
+            window.open(shareUrl, '_blank', 'width=600,height=400,toolbar=0,menubar=0,location=0,status=0,scrollbars=0,resizable=1');
+        });
+    });
     // Fetch and display all content when the page loads
     fetchContent();
 });
