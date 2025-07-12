@@ -142,8 +142,8 @@ section {
   text-align: center;
   padding: 100px 20px 80px; /* Adjust padding for fixed header */
   background: url(public/assets/background.jpg);
-  background-repeat: no-repeat;
-  background-position: 0cqh;
+
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
