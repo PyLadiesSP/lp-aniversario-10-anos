@@ -157,19 +157,20 @@ section {
 
 
 .hero-content h1 {
-  font-size: 3.5em;
-  color: #ffffff;
+    color: #ffffff;
+   /*font-size: 3.5em;
+  
   margin-bottom: 15px;
   line-height: 1.1;  
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem; */
 
 }
 
 
 .hero-content img {
-  width: 690px;
-  height: 470px;
+  width: 100%;
+
   
 }
 
