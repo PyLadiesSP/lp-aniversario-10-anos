@@ -21,23 +21,23 @@
   "aboutEvent": {
     "title": "O EVENTO",
     "paragraphs": [
-      Uma celebração dos 10 anos das PyLadies São Paulo!
+      "Uma celebração dos 10 anos das PyLadies São Paulo!"
  
-      PyLadies é uma comunidade internacional com foco em incluir mulheres (cis e trans) na tecnologia por meio da linguagem Python.
-      Ela possui capítulos espalhados pelo mundo todo e vários capítulos no Brasil, sendo que cada grupo trabalha de forma distinta e independente.
+      "PyLadies é uma comunidade internacional com foco em incluir mulheres (cis e trans) na tecnologia por meio da linguagem Python."
+      "Ela possui capítulos espalhados pelo mundo todo e vários capítulos no Brasil, sendo que cada grupo trabalha de forma distinta e independente."
       
-      Um destes capítulos é o das PyLadies São Paulo, criado em 7 de setembro de 2015 por um grupo de mulheres que queria aprender Python. Desde então, inúmeras mulheres já passaram pelas salas de aula, encontros e palestras. 
+      "Um destes capítulos é o das PyLadies São Paulo, criado em 7 de setembro de 2015 por um grupo de mulheres que queria aprender Python. Desde então, inúmeras mulheres já passaram pelas salas de aula, encontros e palestras." 
       
-      As PyLadies São Paulo dão cursos gratuitos de Python desde o básico – para quem quer começar a ter conhecimento em programação – até o avançado para quem busca se aprofundar.
-      A aulas são lecionadas por mulheres e para mulheres, toda liderança é exclusivamente feminina. 
+      "As PyLadies São Paulo dão cursos gratuitos de Python desde o básico – para quem quer começar a ter conhecimento em programação – até o avançado para quem busca se aprofundar."
+      "A aulas são lecionadas por mulheres e para mulheres, toda liderança é exclusivamente feminina."
 
-      // Nestes cursos, há uma progressão da aprendizagem. As alunas que fizeram o curso são convidadas a serem monitoras nos cursos subsequentes até, consequentemente, conduzirem as aulas. 
-      // Desta forma, são desenvolvidas a auto-confiança, o domínio técnico e a liderança feminina.
+      // "Nestes cursos, há uma progressão da aprendizagem. As alunas que fizeram o curso são convidadas a serem monitoras nos cursos subsequentes até, consequentemente, conduzirem as aulas." 
+      // "Desta forma, são desenvolvidas a auto-confiança, o domínio técnico e a liderança feminina."
 
-      A comunidade é aberta para todas que queiram aprender, ensinar ou organizar atividades. O objetivo é aprender para compartilhar conhecimento!
+      "A comunidade é aberta para todas que queiram aprender, ensinar ou organizar atividades. O objetivo é aprender para compartilhar conhecimento!"
       
-      Em dezembro de 2015, as PyLadies São Paulo foram vencedoras do Prêmio Mulheres Tech em Sampa, patrocinado pela Rede Mulher Empreendedora, Google Entrepreneurs e Tech Sampa.
-      Também foram realizados cursos introdutórios de lógica de programação com Python em Florianópolis e Belo Horizonte durante o evento nacional da comunidade.
+      "Em dezembro de 2015, as PyLadies São Paulo foram vencedoras do Prêmio Mulheres Tech em Sampa, patrocinado pela Rede Mulher Empreendedora, Google Entrepreneurs e Tech Sampa."
+      "Também foram realizados cursos introdutórios de lógica de programação com Python em Florianópolis e Belo Horizonte durante o evento nacional da comunidade."
 
     ],
     "objectives": [
