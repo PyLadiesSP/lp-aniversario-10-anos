@@ -21,16 +21,30 @@
   "aboutEvent": {
     "title": "O EVENTO",
     "paragraphs": [
-      "A Python Brasil é a maior conferência de Python da América Latina, sendo um evento voltado a educação, treinamento e troca de experiências.",
-      "Temos como máxima que pessoas são maiores que tecnologia, e queremos que todos que visitem o evento vivam essa experiência. Sob um código de conduta, o evento preza por criar um ambiente seguro e convidativo a todas as pessoas.",
-      "Como um evento itinerante, todo ano sediado em uma cidade e região diferente do país, sempre organizados por pessoas de comunidades locais, a Python Brasil tem alguns objetivos em cada visita que faz, como principais:"
+      Uma celebração dos 10 anos das PyLadies São Paulo!
+ 
+      PyLadies é uma comunidade internacional com foco em incluir mulheres (cis e trans) na tecnologia por meio da linguagem Python.
+      Ela possui capítulos espalhados pelo mundo todo e vários capítulos no Brasil, sendo que cada grupo trabalha de forma distinta e independente.
+      
+      Um destes capítulos é o das PyLadies São Paulo, criado em 7 de setembro de 2015 por um grupo de mulheres que queria aprender Python. Desde então, inúmeras mulheres já passaram pelas salas de aula, encontros e palestras. 
+      
+      As PyLadies São Paulo dão cursos gratuitos de Python desde o básico – para quem quer começar a ter conhecimento em programação – até o avançado para quem busca se aprofundar.
+      A aulas são lecionadas por mulheres e para mulheres, toda liderança é exclusivamente feminina. 
+
+      // Nestes cursos, há uma progressão da aprendizagem. As alunas que fizeram o curso são convidadas a serem monitoras nos cursos subsequentes até, consequentemente, conduzirem as aulas. 
+      // Desta forma, são desenvolvidas a auto-confiança, o domínio técnico e a liderança feminina.
+
+      A comunidade é aberta para todas que queiram aprender, ensinar ou organizar atividades. O objetivo é aprender para compartilhar conhecimento!
+      
+      Em dezembro de 2015, as PyLadies São Paulo foram vencedoras do Prêmio Mulheres Tech em Sampa, patrocinado pela Rede Mulher Empreendedora, Google Entrepreneurs e Tech Sampa.
+      Também foram realizados cursos introdutórios de lógica de programação com Python em Florianópolis e Belo Horizonte durante o evento nacional da comunidade.
+
     ],
     "objectives": [
-      "Difundir a Linguagem Python",
+      "Estimular o crescimento da comunidade de mulheres que programam em Python",
+      "Incentivar a liderança feminina", 
       "Promover a troca de experiências e conhecimentos",
-      "Incentivar o crescimento da comunidade nacional",
-      "Incentivar o crescimento da comunidade regional",
-      "Impactar econômica e socialmente a região."
+      "Impactar a vida de muitas mulheres."
     ]
   },
   "agenda": {
