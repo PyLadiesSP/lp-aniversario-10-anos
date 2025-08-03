@@ -21,16 +21,31 @@
   "aboutEvent": {
     "title": "O EVENTO",
     "paragraphs": [
-      "A Python Brasil é a maior conferência de Python da América Latina, sendo um evento voltado a educação, treinamento e troca de experiências.",
-      "Temos como máxima que pessoas são maiores que tecnologia, e queremos que todos que visitem o evento vivam essa experiência. Sob um código de conduta, o evento preza por criar um ambiente seguro e convidativo a todas as pessoas.",
-      "Como um evento itinerante, todo ano sediado em uma cidade e região diferente do país, sempre organizados por pessoas de comunidades locais, a Python Brasil tem alguns objetivos em cada visita que faz, como principais:"
+      "Uma celebração dos 10 anos das PyLadies São Paulo!"
+ 
+      "PyLadies é uma comunidade internacional com foco em incluir mulheres (cis e trans) na tecnologia por meio da linguagem Python."
+      "Ela possui capítulos espalhados pelo mundo todo e vários capítulos no Brasil, sendo que cada grupo trabalha de forma distinta e independente."
+      
+      "Um destes capítulos é o das PyLadies São Paulo, criado em 7 de setembro de 2015 por um grupo de mulheres que queria aprender Python. Desde então, inúmeras mulheres já passaram pelas salas de aula, encontros e palestras." 
+      
+      "As PyLadies São Paulo dão cursos gratuitos de Python desde o básico – para quem quer começar a ter conhecimento em programação – até o avançado para quem busca se aprofundar."
+      "A aulas são lecionadas por mulheres e para mulheres, toda liderança é exclusivamente feminina."
+
+      "Nestes cursos, há uma progressão da aprendizagem. As alunas que fizeram o curso são convidadas a serem monitoras nos cursos subsequentes até, consequentemente, conduzirem as aulas." 
+      "Desta forma, são desenvolvidas a auto-confiança, o domínio técnico e a liderança feminina."
+
+      "A comunidade é aberta para todas que queiram aprender, ensinar ou organizar atividades. O objetivo é aprender para compartilhar conhecimento!"
+      
+      "Em dezembro de 2015, as PyLadies São Paulo foram vencedoras do Prêmio Mulheres Tech em Sampa, patrocinado pela Rede Mulher Empreendedora, Google Entrepreneurs e Tech Sampa."
+      "Também foram realizados cursos introdutórios de lógica de programação com Python em Florianópolis e Belo Horizonte durante o evento nacional da comunidade."
+
     ],
     "objectives": [
-      "Difundir a Linguagem Python",
+      "Incluir mulheres na tecnologia",
+      "Fomentar o crescimento da comunidade de mulheres que programam em Python",
+      "Incentivar a liderança feminina", 
       "Promover a troca de experiências e conhecimentos",
-      "Incentivar o crescimento da comunidade nacional",
-      "Incentivar o crescimento da comunidade regional",
-      "Impactar econômica e socialmente a região."
+      "Impactar a vida de muitas mulheres."
     ]
   },
   "agenda": {
@@ -79,11 +94,30 @@
   "communityHistory": {
     "title": "HISTÓRIA DA COMUNIDADE",
     "paragraphs": [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-      "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-    ]
+      "No 22 de agosto de 2015, a comunidade Grupy-SP se reunia para um de seus eventos mensais que também seria o primeiro evento de comunidade para Erika Campos, uma das fundadoras das PyLadiesSP. Um mês antes, ela tinha sido convidada para participar por Eric Hideki. Durante o intervalo, as pessoas comentaram sobre a ausência de PyLadies em São Paulo e sobre como haviam poucas mulheres na tecnologia. No evento do GruPy, haviam apenas três mulheres, sendo que uma delas terá importância vital nesta história."
+
+      "Erika estava começando a programar e ainda não era desenvolvedora, no entanto, ficou inquieta com a idéia de um grupo só de mulheres. Três dias  depois, contatou Eric para entender como poderia ajudar, uma vez que não conhecia muito de programação. E este foi o início do que seria um marco na vida de muitas pessoas, além da vida dela.Naquela semana, ela também contatou Fernando Masanori, que indicou duas mulheres para integrar o 'cadastro' no PyLadies internacional, Pat Yamaki e Cecília Tanaka. O grupo parecia totalmente improvável! Era composto por: Erika, uma jornalista; Pat, uma física; e Cecília, uma advogada. No dia seguinte, a notícia havia se espalhado e contava com o apoio de toda a comunidade Python."
+
+      "Infelizmente, Cecília precisou deixar o grupo e aquela mulher que estava no encontro do GruPy, Alini Ramos, entrou em contato para ajudar. Ela foi uma peça-chave no desenrolar do grupo."
+
+      "Após dezenas de trocas de e-mails em poucos dias, Eric conseguiu um espaço na Novatec e Fernando iria dar um minicurso de Python no dia 12 de Setembro. O tempo para organizar o evento era curto. E a iniciativa trazia riscos. E se nenhuma mulher se interessasse? As fundadoras sentiam um medo recorrente, pois tinham pouco tempo e nenhum público. Eram apenas três mulheres totalmente inexperientes na organização de eventos e comunidades."
+
+      "No dia 7 de setembro de 2015, Erika e Pat se encontraram para definir os últimos detalhes. Criaram um formulário para saber quem tinha interesse, definiram um logo do grupo e abriram as inscrições para o primeiro encontro das PyLadies São Paulo. Este dia é considerado como o lançamento do grupo."
+
+      "O primeiro evento foi um sucesso. As inscrições se esgotaram em 24 horas e a fila de espera era enorme. O que só confirmava a necessidade de um grupo voltado para mulheres. Neste mesmo dia, a aluna Fernanda Campanucci já articulou um segundo evento no IME-USP. Um lugar mais espaçoso que permitiria abrir mais vagas, tendo como instrutor o Beraldo Leal. O grupo ficou muito feliz, mas percebeu que o protagonismo que desejavam não correspondia ao que estava acontecendo. Os dois eventos iniciais tinham sido ministrados por homens. Deste modo, tiveram a idéia de fazer um curso iniciante a partir do zero, voltado para quem queria começar a aprender programação. Era assim que elas também poderiam aprender Python e compartilhar o conhecimento. De forma totalmente despretensiosa, o slogan 'aprender e compartilhar' tinha sido criado."
+
+      "Em 28 de novembro do mesmo ano, aconteceu o primeiro evento das PyLadies São Paulo ministrado por uma mulher. Ele teve o apoio de diversas pessoas da comunidade que ajudaram na monitoria, principalmente Grupy-SP, e foi em uma sala para 80 pessoas. Neste evento, participaram Roberta Tanaka e Beatriz Uezu como monitora e aluna, respectivamente. Ambas se uniram à organização das PyLadies São Paulo."
+
+      "Após apenas 3 meses, em Dezembro, as PyLadies São Paulo ganharam o Prêmio Mulheres Tech em Sampa, organizado pelo Google Entrepreneurs, Prefeitura de São Paulo e Rede Mulher Empreendedora. Com reconhecimento pelo prêmio, iniciaram o ano seguinte confiantes. O que resultou em 15 encontros entre níveis iniciante, intermediário e também algumas palestras. Neste momento, as organizadoras já tinham autonomia para ministrar as aulas e começaram a chamar as alunas do curso anterior para ajudar na monitoria. O convite era o seguinte: 'você não sabe tudo, mas ensinar te ajuda a aprender e fixar'. As alunas toparam! E assim foi a criação de uma rede incrível de mulheres que capacitavam umas às outras."
+
+      "Além disso, também foi o início de solicitações para cursos abertos à homens. Em Junho de 2016, elas arriscaram novamente! Foi feito um Curso de Python para casais que bateu um recorde, com inscrições que esgotaram em 9 minutos e 100% de presença das pessoas inscritas."
+
+      "Em outubro de 2016, durante o evento Python Brasil 12, foi ministrado um curso iniciante de Python em Florianópolis. Nesta viagem, as PyLadies São Paulo puderam conhecer pessoalmente outros capítulos do Brasil e pessoas como a Naomi Ceder, que tiveram um papel de destaque na história da comunidade. Ela foi convidada para o segundo aniversário das PyLadies São Paulo, e realizou uma palestra remota na qual contou sua história e emocionou todas as participantes."
+
+      "Muitas outras ações foram realizadas desde então. Mantendo viva a filosofia de envolver todas as participantes e torná-las protagonistas e líderes, algo que ainda não vemos no mercado de trabalho, e que todas as PyLadies lutam para que aconteça cada vez mais."
+      
+      "Este texto tem como base uma 'Breve história de PyLadies São Paulo', escrito por Erika Campos"
+   ]
   },
   "codeOfConduct": {
     "title": "CÓDIGO DE CONDUTA",
