@@ -141,8 +141,8 @@ section {
   color: #000;
   text-align: center;
   padding: 100px 20px 80px; /* Adjust padding for fixed header */
-  background: url(public/assets/background.jpg);
-
+  /* background: url(public/assets/background.jpg); */
+  background-color: #4a1561;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -170,6 +170,7 @@ section {
 
 .hero-content img {
   width: 100%;
+  padding: 4rem 0;
 }
 
 .hero-content .event-date {
@@ -272,10 +273,11 @@ section {
 
 .speaker-info img{
     display: flex;
-    border-radius: 8%;
+    border-radius: 50%;
     width: 20rem;
     height: 20rem;
     align-items: center;
+    border: #d3bbda 7px solid;
 }
 .speaker-info .title {
   color: #333;
@@ -371,6 +373,10 @@ section {
   border: 1px solid #d6b8e9;
   border-radius: 10px;
   padding: 1rem;
+}
+
+.content-section-share div{
+  padding: 1rem 0;
 }
 
 .share-buttons p {

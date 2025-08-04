@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyLadies São Paulo - 10 Anos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="main-header" class="fixed-header">
         <nav>
             <ul id="main-nav-list">
-                </ul>
+            </ul>
         </nav>
         <div class="header-actions">
-         
-             <span id="countdown-timer"></span>
+
+            <span id="countdown-timer"></span>
             <button id="header-register-btn" class="register-button"></button>
         </div>
     </header>
@@ -23,31 +25,38 @@
         <section id="hero-section" class="hero-section">
             <div class="hero-content">
                 <h1 id="hero-title"></h1>
-                <img src="public/assets/logo.svg" alt="logo"/>
-                <p id="hero-date" class="event-date"></p>    
-             
+                <img src="public/assets/logo.svg" alt="logo" />
+                <p id="hero-date" class="event-date"></p>
+
                 <button id="hero-register-btn" class="register-button"></button>
-                
+
             </div>
-               
+
         </section>
-<section class="content-section-share">
-                    <p>Compartilhe este evento:</p>
-                    <button class="share-btn twitter-share" data-platform="twitter">X.com</button>
-                    <button class="share-btn facebook-share" data-platform="facebook">Facebook</button>
-                    <button class="share-btn linkedin-share" data-platform="linkedin">LinkedIn</button>
-                    <button class="share-btn whatsapp-share" data-platform="whatsapp">WhatsApp</button>
-                </section>
-        <section id="o-evento" class="about-event-section content-section">
-            <h2 id="about-event-title"></h2>
-            <div id="about-event-paragraphs"></div>
-            <ul id="about-event-objectives"></ul>
+        <section class="content-section-share">
+            <div>
+                <p>Compartilhe este evento:</p>
+                <button class="share-btn twitter-share" data-platform="twitter">X.com</button>
+                <button class="share-btn facebook-share" data-platform="facebook">Facebook</button>
+                <button class="share-btn linkedin-share" data-platform="linkedin">LinkedIn</button>
+                <button class="share-btn whatsapp-share" data-platform="whatsapp">WhatsApp</button>
+            </div>
+            <div>
+                <p>Salvar Evento na Agenda:</p>
+                <button onclick="abrirGoogleCalendar()">Google Calendar</button>
+                <button onclick="abrirOutlook()">Outlook.com</button>
+                <button onclick="baixarICS()">Baixar .ics (Apple, Outlook, Google)</button>
+                <section id="o-evento" class="about-event-section content-section">
+                    <h2 id="about-event-title"></h2>
+                    <div id="about-event-paragraphs"></div>
+                    <ul id="about-event-objectives"></ul>
+            </div>
         </section>
 
         <section id="agenda-section" class="agenda-section content-section">
             <h2 id="agenda-title"></h2>
             <div id="agenda-list" class="agenda-list">
-                </div>
+            </div>
         </section>
 
         <section id="community-history-section" class="community-history-section content-section">
@@ -71,10 +80,61 @@
     <footer id="main-footer" class="site-footer">
         <p id="footer-copyright"></p>
         <p id="footer-legal-notice" class="legal-notice"></p>
-        <p>   <span id="footer-create-description"></span> <a href="https://vidal.press"><span id="footer-create-member"></span></a></p>
-     
+        <p> <span id="footer-create-description"></span> <a href="https://vidal.press"><span
+                    id="footer-create-member"></span></a></p>
+
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Dados do evento
+        const titulo = encodeURIComponent("Celebração dos 10 anos das PyLadies São Paulo!");
+        const descricao = encodeURIComponent("Evento");
+        const local = encodeURIComponent("Oracle");
+
+        // Data e hora: 6 de setembro de 2025, das 09h00 às 17h40 (horário de Brasília = UTC-3)
+        // UTC corresponde a 12h00 às 20h40
+        const dataInicioUTC = "20250906T120000Z"; // 09:00 BRT
+        const dataFimUTC = "20250906T204000Z";    // 17:40 BRT
+
+        // Google Calendar
+        function abrirGoogleCalendar() {
+            const url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${titulo}&dates=${dataInicioUTC}/${dataFimUTC}&details=${descricao}&location=${local}&sf=true&output=xml`;
+            window.open(url, "_blank");
+        }
+
+        // Outlook.com
+        function abrirOutlook() {
+            const inicioISO = "2025-09-06T12:00:00Z"; // 09:00 BRT
+            const fimISO = "2025-09-06T20:40:00Z";    // 17:40 BRT
+            const url = `https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&subject=${titulo}&startdt=${inicioISO}&enddt=${fimISO}&body=${descricao}&location=${local}`;
+            window.open(url, "_blank");
+        }
+
+        // Arquivo .ics
+        function baixarICS() {
+            const conteudoICS = `BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:Celebração dos 10 anos das PyLadies São Paulo!
+DESCRIPTION:Evento.
+LOCATION:Oracle
+DTSTART:${dataInicioUTC}
+DTEND:${dataFimUTC}
+END:VEVENT
+END:VCALENDAR`;
+
+            const blob = new Blob([conteudoICS], { type: "text/calendar;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "evento.ics";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
 </body>
+
 </html>
