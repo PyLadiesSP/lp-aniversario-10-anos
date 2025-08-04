@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const heroTitle = document.getElementById("hero-title");
   const heroDate = document.getElementById("hero-date");
   const heroRegisterBtn = document.getElementById("hero-register-btn");
+  const mapsRegisterBtn = document.getElementById("hero-maps-btn");
+
 
   const aboutEventTitle = document.getElementById("about-event-title");
   const aboutEventParagraphsDiv = document.getElementById(
@@ -46,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const footerCopyrightP = document.getElementById("footer-copyright");
   const footerLegalNoticeP = document.getElementById("footer-legal-notice");
   const footerCreateDescription = document.getElementById("footer-create-description");
-  const footerCreateMember= document.getElementById("footer-create-member");
+  const footerCreateMember = document.getElementById("footer-create-member");
 
   // Select countdown timer elements
   const countdownHeaderElement = document.getElementById("countdown-header"); // NEW
@@ -153,6 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ); // Add break for layout
     heroDate.textContent = data.date;
     heroRegisterBtn.textContent = data.registerButtonText;
+        mapsRegisterBtn.textContent = data.mapsButtonText;
     // Add event listener for register button if needed
     // heroRegisterBtn.addEventListener('click', () => { /* ... */ });
   }

@@ -16,7 +16,8 @@
   "hero": {
     "title": "",
     "date": "6 DE SETEMBRO 2025 / Local: Oracle",
-    "registerButtonText": "Ingresso"
+    "registerButtonText": "Ingresso",
+        "mapsButtonText": "Mapa do local"
   },
   "aboutEvent": {
     "title": "O EVENTO",
