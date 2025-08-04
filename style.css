@@ -2,6 +2,7 @@
 * {
   margin: 0 auto;
 }
+
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -10,7 +11,8 @@ body {
   background-color: #311b42;
   color: #333;
   line-height: 1.6;
-  scroll-behavior: smooth; /* For smooth scrolling to sections */
+  scroll-behavior: smooth;
+  /* For smooth scrolling to sections */
 }
 
 h1,
@@ -55,6 +57,7 @@ button {
 section {
   padding-top: 6rem !important;
 }
+
 .content-section {
   max-width: 900px;
   margin: 2rem auto;
@@ -71,10 +74,15 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
+.content-section-share .btn {
+  margin: .5rem;
+}
+
 .content-section h2 {
   text-align: center;
   font-size: 2.5em;
-  color: #7b1fa2; /* PyLadies purple-ish */
+  color: #7b1fa2;
+  /* PyLadies purple-ish */
   margin-bottom: 2.5rem;
 }
 
@@ -112,7 +120,8 @@ section {
 }
 
 .fixed-header nav ul li a:hover {
-  color: #7b1fa2; /* PyLadies purple-ish */
+  color: #7b1fa2;
+  /* PyLadies purple-ish */
 }
 
 .header-actions {
@@ -127,7 +136,8 @@ section {
 }
 
 .header-actions .register-button {
-  background-color: #28a745; /* Green for registration */
+  background-color: #28a745;
+  /* Green for registration */
   color: #fff;
   padding: 8px 15px;
 }
@@ -140,7 +150,8 @@ section {
 .hero-section {
   color: #000;
   text-align: center;
-  padding: 100px 20px 80px; /* Adjust padding for fixed header */
+  padding: 100px 20px 80px;
+  /* Adjust padding for fixed header */
   /* background: url(public/assets/background.jpg); */
   background-color: #4a1561;
   background-position: center;
@@ -148,7 +159,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 87vh; /* Minimum height for visual impact */
+  height: 87vh;
+  /* Minimum height for visual impact */
 }
 
 .hero-content {
@@ -157,8 +169,8 @@ section {
 
 
 .hero-content h1 {
-    color: #ffffff;
-   /*font-size: 3.5em;
+  color: #ffffff;
+  /*font-size: 3.5em;
   
   margin-bottom: 15px;
   line-height: 1.1;  
@@ -184,7 +196,8 @@ section {
 }
 
 .hero-content .button {
-  background-color: #7b1fa2; /* PyLadies purple-ish */
+  background-color: #7b1fa2;
+  /* PyLadies purple-ish */
   color: #fff;
   padding: 15px 30px;
   font-size: 1.3em;
@@ -192,7 +205,8 @@ section {
 }
 
 .hero-content .button:hover {
-  background-color: #6a1b9a; /* Slightly darker purple */
+  background-color: #6a1b9a;
+  /* Slightly darker purple */
   text-decoration: none;
 }
 
@@ -220,7 +234,8 @@ section {
 }
 
 .about-event-section ul li::before {
-  content: "★"; /* Star icon for objectives */
+  content: "★";
+  /* Star icon for objectives */
   color: #8e24aa;
   position: absolute;
   left: 0;
@@ -253,13 +268,14 @@ section {
 
 .agenda-time {
   font-weight: bold;
-  color: #8e24aa; /* A slightly darker purple */
+  color: #8e24aa;
+  /* A slightly darker purple */
   font-size: 1.1em;
   margin-bottom: 0.5rem;
 }
 
 .agenda-description {
-   font-size: 1.4em;
+  font-size: 1.4em;
   color: #555;
   margin-bottom: 0.5rem;
 }
@@ -268,24 +284,26 @@ section {
   margin-top: 0.8rem;
   padding-top: 0.8rem;
   border-top: 1px dashed #e0e0e0;
-   font-size: 1.4em;
+  font-size: 1.4em;
   color: #666;
 }
 
-.speaker-info img{
-    display: flex;
-    border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
-    align-items: center;
-    border: #d3bbda 7px solid;
+.speaker-info img {
+  display: flex;
+  border-radius: 50%;
+  width:260px;
+  height: 260px;
+  align-items: center;
+  border: #d3bbda 7px solid;
 }
+
 .speaker-info .title {
   color: #333;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
 }
+
 .speaker-info strong {
   color: #333;
 }
@@ -299,7 +317,8 @@ section {
 
 /* Code of Conduct Section */
 .code-of-conduct-section {
-  background-color: #e8eaf6; /* Light blue-ish for emphasis */
+  background-color: #e8eaf6;
+  /* Light blue-ish for emphasis */
   border-left: 5px solid #7b1fa2;
   padding: 2.5rem;
 }
@@ -326,13 +345,14 @@ section {
 }
 
 .code-of-conduct-section ul {
-  list-style: disc; /* Use discs for lists in this section */
+  list-style: disc;
+  /* Use discs for lists in this section */
   margin-left: 25px;
   margin-bottom: 1.5rem;
 }
 
 .code-of-conduct-section ul li {
-    font-size: 1.3em;
+  font-size: 1.3em;
   line-height: 1.6;
   color: #666;
   margin-bottom: 8px;
@@ -340,13 +360,14 @@ section {
 
 /* Footer Styles */
 .site-footer {
- 
+
   color: #fff;
   text-align: center;
   padding: 1.5rem 0;
   margin-top: 3rem;
   font-size: 1.3rem;
 }
+
 .site-footer a {
   color: #fff;
 }
@@ -376,12 +397,13 @@ section {
   padding: 1rem;
 }
 
-.content-section-share div{
+.content-section-share div {
   padding: 1rem 0;
 }
 
 .share-buttons p {
-  width: 100%; /* Texto "Compartilhe este evento" ocupa a largura total */
+  width: 100%;
+  /* Texto "Compartilhe este evento" ocupa a largura total */
   margin-bottom: 15px;
   font-size: 1em;
   color: #ffffff;
@@ -405,12 +427,15 @@ section {
 .twitter-share {
   background-color: #1da1f2;
 }
+
 .facebook-share {
   background-color: #1877f2;
 }
+
 .linkedin-share {
   background-color: #0a66c2;
 }
+
 .whatsapp-share {
   background-color: #25d366;
 }
@@ -419,31 +444,43 @@ section {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+.speaker-info img {
+width: 50%;
+height: 50%;
+}
   /* ... existing styles ... */
   .countdown-timer {
     font-size: 1.2em;
     padding: 8px 15px;
   }
+
   /* ... existing styles ... */
   .share-buttons {
-    flex-direction: column; /* Empilha os botões em telas menores */
+    flex-direction: column;
+    /* Empilha os botões em telas menores */
     align-items: center;
   }
-  .content-section-share{
+
+  .content-section-share {
     text-align: center;
   }
-  .hero-section{
+
+  .hero-section {
     height: 48vh
   }
+
   .share-btn {
-    width: 80%; /* Botões mais largos em telas menores */
+    width: 80%;
+    /* Botões mais largos em telas menores */
     max-width: 200px;
     margin-top: 1rem;
   }
+
   .fixed-header {
     position: relative;
     width: auto;
   }
+
   .header-actions span {
     margin: 1rem 0;
   }
@@ -502,9 +539,11 @@ section {
 
     margin-bottom: 0.5rem;
   }
+
   .agenda-description {
     text-align: center;
   }
+
   .site-footer {
     font-size: 1rem;
   }
@@ -518,7 +557,8 @@ section {
   }
 
   .agenda-time {
-    min-width: 120px; /* Give time a fixed width for alignment */
+    min-width: 120px;
+    /* Give time a fixed width for alignment */
     flex-shrink: 0;
     margin-right: 1rem;
   }
@@ -527,8 +567,10 @@ section {
     flex-grow: 1;
     text-align: left;
   }
+
   .agenda-description,
   .speaker-info {
-    margin-bottom: 0; /* Remove bottom margin for better alignment in row layout */
+    margin-bottom: 0;
+    /* Remove bottom margin for better alignment in row layout */
   }
 }
