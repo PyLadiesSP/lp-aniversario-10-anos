@@ -76,28 +76,62 @@
         "speaker": {
           "name": "Fernando Masanori",
           "cargo": "Fernando Masanori é professor, e entusiasta de decisões por impulso que dão certo. Em 2015 colaborou no primeiro workshop das PyLadies SP — e apareceu com Python, alegria e pouquíssimo planejamento. Deu vários cursos para jornalistas, advogadas, biólogas, filósofas, mulheres incríveis de todas as áreas. Ainda ensina, ainda se emociona, e segue acreditando que ensinar muda tudo (inclusive ele mesmo).",
-          "avatar": "https://www.dropbox.com/scl/fi/kv9ylu3lw0jwkt6skf63q/Fernando-Masanori-O-Globo.jpg?rlkey=j2gkt5yawww65h1cj0sv4qwym&dl=0"
+          "avatar": "https://uc1db8f18b6ef60545e5b5e3ed3b.previews.dropboxusercontent.com/p/thumb/ACt_t-9McMqzbihobwcdn5cUqeuvfRBlyGigLP1CgLkykClX-LZCISWmIvoQo25u-FO835kiOUu3dd6sIHjaigk3tseajxvDbsHlLFK5OIBxF8uky9Azv_t6AzQXYPyTEbcEKMQqRm2Ykk9V6FuTX6FbcJmiSvo5jGfaXyGTktSwCmW__MdzDUyRtNOB7DNNumTNw1of2VUejBBYoeZqHHI51Cd6xem0AxDnWbttIEUP1AN8sVREO-zUiUHoxDPsSBIQqm-KNtyzspSFZOajG8e4eHrElzetkMG4qKnz7hHJpnxwhXLLHZs2zpOej2KbPGEqxC-mZhkjnNrQDRK84FNkduvMmxygcBtP8krXz3RPLHhf9wzOCvjarupormX3iQI/p.jpeg?is_prewarmed=true"
+        }
+      },
+           {
+        "time": "11h40 - 12h20",
+        "description": "Palestra 2: Do Bug ao Bisturi: Minha Jornada da TI à Saúde",
+        "speaker": {
+          "name": "Emanuele S. Bernardo",
+          "cargo": "Emanuele é enfermeira, estomaterapeuta, Mestre em Saúde Coletiva, gaúcha, e mulher trans. Trabalha há 15 anos na área da saúde tendo atuado como Dev Jr no Itau  Unibanco por 2 anos e meio.",
+          "avatar": "./img/Manu.jpg"
         }
       },
       {
-        "time": "12h28 - 14h",
+        "time": "12h20 - 14h",
         "description": "Almoço",
         "speaker": null
       },
       {
-        "time": "15h26 - 15h50",
+        "time": "14h - 14h40",
+        "description": " Roda PyLadies",
+        "speaker": null
+      },
+           {
+        "time": "11h40 - 12h20",
+        "description": "Palestra 3: ",
+        "speaker": {
+          "name": "Izabela Cardoso",
+          "cargo": "",
+          "avatar": ""
+        }
+      },
+
+      {
+        "time": "15h20 - 15h50",
         "description": "Café",
         "speaker": null
       },
-      {
-        "time": "16h48 - 17h40",
-        "description": "Keynote",
+           {
+        "time": "11h40 - 12h20",
+        "description": "Palestra 4: CiberSegurança para Dev: O que estamos fazendo para ter aplicações seguras na era da IA.",
         "speaker": {
-          "name": "Luciano Ramalho",
-          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996",
-          "avatar": "https://2024.pythonbrasil.org.br/theme/images/nina.jpg"
+          "name": "Dáviny Letícia Vidal",
+          "cargo": "Formada em Análise e Desenvolvimento de Sistemas, pós-graduada e com experiência em desenvolvimento web. Atuo como professora na FIAP e consultora de desenvolvimento produtos digitais na Afulink. Tenho paixão por ensinar e compartilhar conhecimento. Sou autora do eBook Aprendendo Python",
+          "avatar": "./img/1750190956612.jpeg"
+        }
+      },
+                 {
+        "time": "16h40 - 17h40",
+        "description": "Keynote 2: Uma vista de fora - 10 anos de PyLadies São Paulo",
+        "speaker": {
+          "name": "Naomi Ceder",
+          "cargo": "Naomi Ceder obteve seu doutorado em Ciências Clássicas há várias décadas, mas desde 2001, ela aprende, ensina e escreve sobre Python.Membro eleita da Python Software Foundation, Naomi foi presidente do conselho administrativo e, em 2022, tornou-se a sétima pessoa selecionada a receber o Prêmio de Serviço Distinto da PSF. Fundadora do Trans*Code, um hackday focado na comunidade trans e não binária, ela também palestra internacionalmente sobre a comunidade Python e sobre inclusão e diversidade na tecnologia em geral.Nas horas vagas, Naomi gosta de aprender violão clássico e jazz e ler romances policiais em espanhol e português.",
+          "avatar": "./img/NaomiCeder_headshot_web.jpg"
         }
       }
+
     ]
   },
   "communityHistory": {

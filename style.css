@@ -272,9 +272,9 @@ section {
 
 .speaker-info img{
     display: flex;
-    border-radius: 50%;
-    width: 200px;
-    padding-bottom: 1rem;
+    border-radius: 8%;
+    width: 20rem;
+    height: 20rem;
     align-items: center;
 }
 .speaker-info .title {
