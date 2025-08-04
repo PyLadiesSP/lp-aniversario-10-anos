@@ -57,17 +57,26 @@
         "speaker": null
       },
       {
-        "time": "9h30 - 16h",
+        "time": "9h30 - 10h",
         "description": "Quem são as PyLadies SP?",
         "speaker": null
       },
       {
         "time": "10h - 11h",
-        "description": "Keynote 1",
+        "description": "Keynote 1: As voltas de Liskov: iteráveis e geradores",
         "speaker": {
           "name": "Luciano Ramalho",
-          "cargo": "Desenvolvedor desde os 12 anos, com 35 anos de experiência no mercado, programando nas mais diversas linguagens, desde BASIC até Rust, envolvido com as comunidades de tecnologia desde 1996",
-          "avatar": "https://2024.pythonbrasil.org.br/theme/images/jessica.png"
+          "cargo": "Luciano Ramalho programa profissionalmente em Python desde 1998. Escreveu o livro Fluent Python publicado pela O’Reilly em duas edições e nove idiomas. É co-fundador da Associação Python Brasil e do laboratório comunitário Garoa Hacker Clube, o primeiro hackerspace do Brasil.",
+          "avatar": "https://ramalho.org/minibio/LR-2024-trenitalia-600x.jpg"
+        }
+      },
+            {
+        "time": "11h - 11h40",
+        "description": "Palestra 1: Now is better than never",
+        "speaker": {
+          "name": "Fernando Masanori",
+          "cargo": "Fernando Masanori é professor, e entusiasta de decisões por impulso que dão certo. Em 2015 colaborou no primeiro workshop das PyLadies SP — e apareceu com Python, alegria e pouquíssimo planejamento. Deu vários cursos para jornalistas, advogadas, biólogas, filósofas, mulheres incríveis de todas as áreas. Ainda ensina, ainda se emociona, e segue acreditando que ensinar muda tudo (inclusive ele mesmo).",
+          "avatar": "https://www.dropbox.com/scl/fi/kv9ylu3lw0jwkt6skf63q/Fernando-Masanori-O-Globo.jpg?rlkey=j2gkt5yawww65h1cj0sv4qwym&dl=0"
         }
       },
       {
