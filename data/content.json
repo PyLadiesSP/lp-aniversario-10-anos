@@ -53,7 +53,7 @@
     "title": "AGENDA",
     "items": [
       {
-        "time": "9h - 9h38",
+        "time": "9h - 9h30",
         "description": "Café e Boas vindas",
         "speaker": null
       },
@@ -100,12 +100,12 @@
         "speaker": null
       },
            {
-        "time": "11h40 - 12h20",
-        "description": "Palestra 3: ",
+        "time": "14h40 - 15h20",
+        "description": "Palestra 3: Minha selfie é dado aberto?",
         "speaker": {
           "name": "Izabela Cardoso",
-          "cargo": "",
-          "avatar": ""
+          "cargo": "Goiana, mas morando em São Paulo e com muito amor por Brasília, me formei em Engenharia de Software na UnB e há 8 anos venho trabalhando com backend, atualmente mais especificamente na área de biometria facial. Também faço parte da organização da Python Brasil deste ano, que será em São Paulo, das PyLadies e do Núcleo de Tecnologia do MTST. Para além dos trabalhos remunerados e voluntários, adoro artes, filosofia e fazer trilhas pela natureza <3",
+          "avatar": "./img/photo_4958603652801605237_y.jpg"
         }
       },
 
@@ -115,7 +115,7 @@
         "speaker": null
       },
            {
-        "time": "11h40 - 12h20",
+        "time": "16h - 16h40",
         "description": "Palestra 4: CiberSegurança para Dev: O que estamos fazendo para ter aplicações seguras na era da IA.",
         "speaker": {
           "name": "Dáviny Letícia Vidal",

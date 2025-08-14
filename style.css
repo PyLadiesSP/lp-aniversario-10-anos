@@ -448,6 +448,14 @@ section {
 width: 50%;
 height: 50%;
 }
+.btns-hero{
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-maps-btn{
+  margin: 1rem;
+}
   /* ... existing styles ... */
   .countdown-timer {
     font-size: 1.2em;
