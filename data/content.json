@@ -118,18 +118,18 @@
         "time": "16h - 16h40",
         "description": "Palestra 4: CiberSegurança para Dev: O que estamos fazendo para ter aplicações seguras na era da IA.",
         "speaker": {
-          "name": "Dáviny Letícia Vidal",
-          "cargo": "Formada em Análise e Desenvolvimento de Sistemas, pós-graduada e com experiência em desenvolvimento web. Atuo como professora na FIAP e consultora de desenvolvimento produtos digitais na Afulink. Tenho paixão por ensinar e compartilhar conhecimento. Sou autora do eBook Aprendendo Python",
-          "avatar": "./img/1750190956612.jpeg"
+          "name": "Em breve",
+          "cargo": "",
+          "avatar": "https://images.unsplash.com/photo-1655998233171-ee5b130acba5?q=80&w=699&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
       },
                  {
         "time": "16h40 - 17h40",
         "description": "Keynote 2: Uma vista de fora - 10 anos de PyLadies São Paulo",
         "speaker": {
-          "name": "Naomi Ceder",
-          "cargo": "Naomi Ceder obteve seu doutorado em Ciências Clássicas há várias décadas, mas desde 2001, ela aprende, ensina e escreve sobre Python.Membro eleita da Python Software Foundation, Naomi foi presidente do conselho administrativo e, em 2022, tornou-se a sétima pessoa selecionada a receber o Prêmio de Serviço Distinto da PSF. Fundadora do Trans*Code, um hackday focado na comunidade trans e não binária, ela também palestra internacionalmente sobre a comunidade Python e sobre inclusão e diversidade na tecnologia em geral.Nas horas vagas, Naomi gosta de aprender violão clássico e jazz e ler romances policiais em espanhol e português.",
-          "avatar": "./img/NaomiCeder_headshot_web.jpg"
+          "name": "Em breve",
+          "cargo": "",
+          "avatar": "https://images.unsplash.com/photo-1655998233171-ee5b130acba5?q=80&w=699&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
       }
 
