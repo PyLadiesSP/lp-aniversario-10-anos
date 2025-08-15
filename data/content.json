@@ -11,12 +11,12 @@
       { "text": "Fale Conosco", "href": "mailto:saopaulo@pyladies.com" }
     ],
 
-    "registerButtonText": "Ingresso"
+    "registerButtonText": "Inscrições em breve"
   },
   "hero": {
     "title": "",
     "date": "6 DE SETEMBRO 2025 / Local: Oracle",
-    "registerButtonText": "Ingresso",
+    "registerButtonText": "Inscrições em breve",
         "mapsButtonText": "Mapa do Local"
   },
   "aboutEvent": {
