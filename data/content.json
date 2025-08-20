@@ -68,7 +68,7 @@
         "speaker": {
           "name": "Em breve",
           "cargo": "",
-          "avatar": "https://img.myloview.com.br/fotomurais/humano-homem-pessoa-avatar-perfil-do-usuario-vector-icon-ilustracao-700-80949473.jpg"
+          "avatar": "./img/avatar.png"
         }
       },
             {
@@ -77,7 +77,7 @@
         "speaker": {
           "name": "Em breve",
           "cargo": "",
-          "avatar": "https://img.myloview.com.br/fotomurais/humano-homem-pessoa-avatar-perfil-do-usuario-vector-icon-ilustracao-700-80949473.jpg"
+          "avatar": "./img/avatar.png"
         }
       },
            {
@@ -129,7 +129,7 @@
         "speaker": {
           "name": "Em breve",
           "cargo": "",
-          "avatar": "https://img.myloview.com.br/fotomurais/humano-homem-pessoa-avatar-perfil-do-usuario-vector-icon-ilustracao-700-80949473.jpg"
+          "avatar": "./img/avatar.png"
         }
       }
 
