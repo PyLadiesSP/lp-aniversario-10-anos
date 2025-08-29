@@ -66,9 +66,9 @@
         "time": "10h - 11h",
         "description": "Keynote 1: As voltas de Liskov: iteráveis e geradores",
         "speaker": {
-          "name": "Em breve",
-          "cargo": "",
-          "avatar": "./img/avatar.png"
+          "name": "Luciano Ramalho",
+          "cargo": "Luciano Ramalho programa profissionalmente em Python desde 1998. Escreveu o livro Fluent Python publicado pela O’Reilly em duas edições e nove idiomas. É co-fundador da Associação Python Brasil e do laboratório comunitário Garoa Hacker Clube, o primeiro hackerspace do Brasil.",
+          "avatar": "https://ramalho.org/minibio/LR-2024-trenitalia-600x.jpg"
         }
       },
             {
