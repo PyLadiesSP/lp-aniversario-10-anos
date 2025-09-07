@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const now = new Date();
     const timeLeft = eventDate - now; // Time difference in milliseconds
 
-    if (timeLeft = 0 and timeLeft >= -9) {
+    if (timeLeft == 0) {
       if (element) {
         element.textContent = "O evento começou!";
       }
