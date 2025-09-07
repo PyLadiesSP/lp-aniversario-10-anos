@@ -74,6 +74,17 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    if (timeLeft > 0) {
+      if (element) {
+        element.textContent = "O evento finalizou!";
+      }
+     
+      // Clear both intervals if they exist
+      if (countdownHeaderInterval) clearInterval(countdownHeaderInterval);
+      if (countdownMainInterval) clearInterval(countdownMainInterval);
+      return;
+    }
+
     const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
     const hours = Math.floor(
       (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
